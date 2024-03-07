@@ -59,6 +59,7 @@ public class alert {
 	}
 	@AfterMethod
 	public void end() {
+		driver.close();
 		driver.quit();
 
 	}
